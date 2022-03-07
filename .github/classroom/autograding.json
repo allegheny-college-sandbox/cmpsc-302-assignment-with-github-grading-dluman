@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "GatorGrader",
-      "setup": "sudo pip install --upgrade pip && pip install pipenv && pipenv install --dev --three && pip install bs4 && pip install requests && export PAGES=$(curl -sb -H \"Accept:application/json\" -u dluman:$GITHUB_TOKEN $GITHUB_API_URL/repos/$GITHUB_REPOSITORY/pages) && echo $PAGES",
+      "setup": "sudo pip install --upgrade pip && pip install pipenv && pipenv install --dev --three && pip install bs4 && pip install requests && export PAGES=$(curl -sb -H \"Accept:application/json\" -u dluman:$GWIZ_TOKEN $GITHUB_API_URL/repos/$GITHUB_REPOSITORY/pages) && echo $PAGES",
       "run": "gradle grade",
       "input": "",
       "output": "",
