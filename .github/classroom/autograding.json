@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "GatorGrader",
-      "setup": "sudo pip install --upgrade pip && pip install pipenv && pipenv install --dev --three && pip install bs4 && pip install requests && sudo source config/.pages.sh",
+      "setup": "sudo pip install --upgrade pip && pip install pipenv && pipenv install --dev --three && pip install bs4 && pip install requests",
       "run": "gradle grade",
       "input": "",
       "output": "",
