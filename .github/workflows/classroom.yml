@@ -2,7 +2,7 @@
     
     on:
         push:
-            braches: [main]
+            branches: [main]
     env:
         GWIZ_TOKEN: ${{ secrets.GWIZ_TOKEN }}
         
