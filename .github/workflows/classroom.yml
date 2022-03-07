@@ -2,6 +2,9 @@
 
     on: [push]
 
+    env:
+       GWIZ_TOKEN: ${{ secrets.GWIZ_TOKEN }}
+
     jobs:
       build:
         name: Autograding
