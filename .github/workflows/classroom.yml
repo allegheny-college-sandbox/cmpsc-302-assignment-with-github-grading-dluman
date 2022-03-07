@@ -1,9 +1,11 @@
     name: GitHub Classroom Workflow
+    
     on:
         push:
             braches: [main]
     env:
         GWIZ_TOKEN: ${{ secrets.GWIZ_TOKEN }}
+        
     jobs:
       build:
         name: Autograding
