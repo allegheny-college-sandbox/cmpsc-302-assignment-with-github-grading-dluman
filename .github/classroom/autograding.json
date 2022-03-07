@@ -3,7 +3,7 @@
     {
       "name": "Set PAGES environment variable",
       "setup": "",
-      "run": "export PAGES=$(curl -sb -H \"Accept:application/json\" -u dluman:$GWIZ_TOKEN $GITHUB_API_URL/repos/$GITHUB_REPOSITORY/pages) && echo $PAGES",
+      "run": "export PAGES=$(curl -sb -H \"Accept:application/json\" -u dluman:$token $GITHUB_API_URL/repos/$GITHUB_REPOSITORY/pages) && echo $PAGES",
       "input": "",
       "output": "",
       "comparison": "included",
